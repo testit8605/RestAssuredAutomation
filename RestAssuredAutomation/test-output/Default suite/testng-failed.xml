@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="serializationDeserialization.SerializationDeserialization">
+      <class name="AutomationStepByStep.Tests_DELETE">
         <methods>
-          <include name="createNewEntry"/>
+          <include name="test_1"/>
         </methods>
-      </class> <!-- serializationDeserialization.SerializationDeserialization -->
+      </class> <!-- AutomationStepByStep.Tests_DELETE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
